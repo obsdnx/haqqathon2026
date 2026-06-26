@@ -1,0 +1,5 @@
+external_ref,donor_name,amount,currency,fund_designation,date_received,notes
+CSV-001,Amara Diallo,75.00,GBP,sadaqah,2024-02-14,Weekly standing order via JustGiving
+CSV-002,Yusuf Kamara,150.00,GBP,sadaqah,2024-03-22,Text-to-donate campaign — Ramadan appeal
+CSV-003,Aisha Conteh,600.00,GBP,general,2024-04-18,Gift Aid form received — processing
+CSV-004,Musa Bah,450.00,GBP,zakat,2024-05-01,Cash deposited at branch — bag count ref 2024-05-01-001

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: fund-tracer-pg
+    environment:
+      POSTGRES_DB: fund_tracer
+      POSTGRES_USER: fund_tracer
+      POSTGRES_PASSWORD: fund_tracer_secret
+    ports:
+      - "5433:5432"
+    volumes:
+      - fund-tracer-data:/var/lib/postgresql/data
+
+volumes:
+  fund-tracer-data:
